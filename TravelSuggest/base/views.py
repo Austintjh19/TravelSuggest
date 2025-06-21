@@ -42,7 +42,7 @@ def result(request, pk):
 
 def generate_travel_suggestions(travel_query):
 
-    genai.configure(api_key="AIzaSyCmfBtuVVD88DVXwXlJfK6wxz7V1zHsVVg")
+    genai.configure(api_key="API_KEY")
 
     generation_config = {
     "temperature": 0.9,
